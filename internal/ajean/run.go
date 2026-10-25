@@ -229,6 +229,7 @@ func readEtcDefault() string {
 func backendsDir() string { return filepath.Join(AjeanHome(), "backends") }
 func binDir() string      { return filepath.Join(AjeanHome(), "bin") }
 func presetsDir() string  { return filepath.Join(AjeanHome(), "presets") }
+func servicesDir() string { return filepath.Join(AjeanHome(), "services") }
 
 // memoryDir est le dossier mémoire du projet ACTIF (memory/<slug>). Tout le code
 // mémoire passe par ici : il hérite du cloisonnement par projet sans le savoir.
